@@ -58,8 +58,10 @@ As can be noticed, there are 2 different sets of environment variables sections 
 * Secrets
 * Variables
 
-The only difference is that the secrets are hidden and never shown in the dashboard after they have been added, while 
-the variables are always available to be read.
+Secrets are environment variables that are intended for saving secure tokens/values and are stored encrypted 
+and only available during Deploy or Package builds in order to keep them protected.
+
+Secrets are hidden and never shown in the dashboard after they have been added, while the variables are always available to be read.
 
 The environments dashboard also lists available custom environments along with their configured key/value pairs and secrets keys.
 
